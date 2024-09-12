@@ -16,8 +16,9 @@ stored.
 4. Read the IP address which is send by the client.
 5. Map the IP address with its MAC address and return the MAC address to client.
 ## PROGRAM - ARP
-```
+
 CLIENT:
+```
 import socket 
 s=socket.socket() 
 s.bind(('localhost',8000)) 
@@ -46,8 +47,8 @@ while True:
 ![image](https://github.com/user-attachments/assets/312c8729-e490-4ddd-8a1d-f87231f16847)
 
 ## PROGRAM - RARP
-```
 CLIENT:
+```
 import socket 
 s=socket.socket() 
 s.bind(('localhost',9000)) 
