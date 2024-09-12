@@ -30,6 +30,7 @@ while True:
                 c.send(address[ip].encode()) 
             except KeyError: 
                 c.send("Not Found".encode())
+```
 SERVER:
 import socket 
 s=socket.socket() 
@@ -58,7 +59,7 @@ while True:
                 c.send(address[ip].encode()) 
             except KeyError: 
                 c.send("Not Found".encode())
-
+```
 SERVER:
 import socket 
 s=socket.socket() 
