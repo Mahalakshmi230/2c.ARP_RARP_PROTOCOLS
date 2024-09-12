@@ -42,6 +42,8 @@ while True:
     s.send(ip.encode()) 
     print("MAC Address",s.recv(1024).decode())
 ```
+
+
     
 ## OUPUT - ARP
 ![image](https://github.com/user-attachments/assets/312c8729-e490-4ddd-8a1d-f87231f16847)
