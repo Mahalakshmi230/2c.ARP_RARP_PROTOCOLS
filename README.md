@@ -32,6 +32,7 @@ while True:
                 c.send("Not Found".encode())
 ```
 SERVER:
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
@@ -61,6 +62,7 @@ while True:
                 c.send("Not Found".encode())
 ```
 SERVER:
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',9000)) 
